@@ -16,8 +16,6 @@
 import axios from 'axios';
 import { reactive } from 'vue';
 
-import { hasError, getFirstError } from './stores/error';
-
 import ErrorField from './components/ErrorField.vue';
 
 const user = reactive({
